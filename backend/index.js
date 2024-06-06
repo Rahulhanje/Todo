@@ -2,8 +2,10 @@ const { todo }=require("./db");
 const { createTodo,updateTodo }=require("./types");
 const express=require("express");
 const app=express();
+const cors=require("cors");
 const mongoose=require("mongoose");
 app.use(express.json());
+app.use(cors());
 
 //body{
    //title:string;

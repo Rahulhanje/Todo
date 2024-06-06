@@ -13,4 +13,4 @@
 
 ## Now THe work is of Creating React 
 - First Creat another frontend  Foleder for react using vite
--  
+-  if while running frontend and back end both at a same time u cant run it so add npm i cors in backend foleder

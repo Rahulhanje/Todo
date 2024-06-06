@@ -3,12 +3,12 @@ import './App.css'
 import { CreateTodo } from './components/CreateTodo'
 import { Todos } from './components/todo'
 function App() {
-  const [count, setCount] = useState(0) 
-
+  const [todos,settodo]=useState([]);
+  
   return (
     <div>
        <CreateTodo/>
-       <Todos/>
+       <Todos todos={todos}/>
     </div>
   )
 }
